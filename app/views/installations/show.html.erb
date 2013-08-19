@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @installation.address %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @installation.city %>
+</p>
+
+<p>
+  <strong>Zip:</strong>
+  <%= @installation.zip %>
+</p>
+
+<p>
+  <strong>Users:</strong>
+  <%= @installation.users %>
+</p>
+
+<%= link_to 'Edit', edit_installation_path(@installation) %> |
+<%= link_to 'Back', installations_path %>
