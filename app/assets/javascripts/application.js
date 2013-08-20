@@ -14,3 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$(document).ready(function(){
+
+  $('.jumbotron').bgswitcher({
+    images: ['assets/grass.jpg', 'assets/holding_sun.jpg', 'assets/panels.jpg', 'assets/home.jpg', 'assets/sun.jpg'],
+    interval: 15000,
+  });
+});

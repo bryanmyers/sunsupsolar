@@ -22,3 +22,10 @@ body{
   padding: 1%;
   overflow: hidden;
 }
+#main_container{
+margin-top: 162px;
+}
+.jumbotron{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
