@@ -26,9 +26,12 @@ nav{
   padding: 1%;
   overflow: hidden;
 }
-#main_container{
-margin-top: 192px;
+#container_spacer{
+  height: 192px;
 }
+/*#main_container{
+margin-top: 192px;
+}*/
 #slideshow{
   width: 100%;
 }
