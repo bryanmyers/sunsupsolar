@@ -263,6 +263,7 @@
      */
     _setupBackgroundElement: function() {
       this.$bg = $(document.createElement('div'));
+      this.$bg.attr("id", "picture-frame");
       this.$bg.css({
         position: 'absolute',
         zIndex: (this.$el.css('zIndex')|0) - 1,
@@ -342,7 +343,7 @@
     loop: true,
     shuffle: false,
     effect: 'fade',
-    duration: 1000,
+    duration: 2000,
     easing: 'swing'
   };
 

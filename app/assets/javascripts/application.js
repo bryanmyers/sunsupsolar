@@ -18,6 +18,10 @@ $(document).ready(function(){
 
   $('.jumbotron').bgswitcher({
     images: ['assets/grass.jpg', 'assets/holding_sun.jpg', 'assets/panels.jpg', 'assets/home.jpg', 'assets/sun.jpg'],
-    interval: 15000,
+    interval: 3000,
   });
+  $(window).on('resize', function(){
+    $("#picture-frame").css("top", $(".jumbotron").css("top"));
+  });
+
 });
