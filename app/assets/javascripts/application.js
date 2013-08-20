@@ -16,38 +16,64 @@
 //= require_tree .
 
 //use background switcher
-$(document).ready(function(){
+// $(document).ready(function(){
 
-  $('.jumbotron').bgswitcher({
-    images: ['assets/grass.jpg', 'assets/holding_sun.jpg', 'assets/panels.jpg', 'assets/home.jpg', 'assets/sun.jpg'],
-    interval: 3000,
-  });
-  $(window).on('resize', function(){
-    $("#picture-frame").css("top", $(".jumbotron").css("top"));
-  });
+//   $('.jumbotron').bgswitcher({
+//     images: ['assets/grass.jpg', 'assets/holding_sun.jpg', 'assets/panels.jpg', 'assets/home.jpg', 'assets/sun.jpg'],
+//     interval: 3000,
+//   });
+//   $(window).on('resize', function(){
+//     $("#picture-frame").css("top", $(".jumbotron").css("top"));
+//   });
 
-});
+// });
 
 //use my custom switcher
 
-  // $('#t3').show();
+// $(document).ready(function(){
 
-  // var counter = 0;
+//   $('#jumbotron1').hide();
+//   $('#jumbotron2').hide();
+//   $('#jumbotron3').hide();
+//   $('#jumbotron4').hide();
+//   $('#jumbotron5').show();
 
-  // function toggle(){
+//   var current_jumbotron = '#jumbotron5';
 
-  //   $('#my_testimonials_panel p').hide();
+//   var counter = 0;
 
-  //   if(counter %3 == 0){
-  //     $('#my_testimonials_panel #t1').fadeIn(1000);
-  //   }
-  //   else if(counter %3 == 1){
-  //     $('#my_testimonials_panel #t2').fadeIn(1000);
-  //   }
-  //   else if(counter %3 == 2){
-  //     $('#my_testimonials_panel #t3').fadeIn(1000);
-  //   }
-  //   counter ++;
-  // }
+//   function toggle(){
 
-  // setInterval(toggle, 3000);
+//     if(counter %5 == 0){
+//       $('#jumbotron1').fadeIn(1000);
+//     }
+//     else if(counter %5 == 1){
+//       $('#jumbotron2').fadeIn(1000);
+//     }
+//     else if(counter %5 == 2){
+//       $('#jumbotron3').fadeIn(1000);
+//     }
+//     else if(counter %5 == 3){
+//       $('#jumbotron4').fadeIn(1000);
+//     }
+//     else if(counter %5 == 4){
+//       $('#jumbotron5').fadeIn(1000);
+//     }
+//     $(current_jumbotron).hide();
+
+//     console.log(counter);
+//     console.log(current_jumbotron);
+//     counter ++;
+//   }
+
+//   setInterval(toggle, 6000);
+// });
+
+$(document).ready(function() {
+    $('.slideshow').cycle({
+    fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+    fit: true,
+    height: 'auto',
+    width: 'auto'
+  });
+});
