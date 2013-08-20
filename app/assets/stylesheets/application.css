@@ -26,12 +26,13 @@ nav{
   padding: 1%;
   overflow: hidden;
 }
+#logo_small{
+  max-height: 45px;
+  max-width: 45px;
+}
 #container_spacer{
   height: 192px;
 }
-/*#main_container{
-margin-top: 192px;
-}*/
 #slideshow{
   width: 100%;
 }
