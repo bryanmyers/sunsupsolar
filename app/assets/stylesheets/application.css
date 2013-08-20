@@ -32,6 +32,7 @@ margin-top: 192px;
 .jumbotron{
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  background-color: rgba(255, 255, 255, 0.0);  /*override bootstrap's gray default*/
   box-shadow: 0px 0px 7px gray;
 }
 #footer{

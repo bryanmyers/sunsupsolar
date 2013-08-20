@@ -14,6 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+//use background switcher
 $(document).ready(function(){
 
   $('.jumbotron').bgswitcher({
@@ -25,3 +27,27 @@ $(document).ready(function(){
   });
 
 });
+
+//use my custom switcher
+
+  // $('#t3').show();
+
+  // var counter = 0;
+
+  // function toggle(){
+
+  //   $('#my_testimonials_panel p').hide();
+
+  //   if(counter %3 == 0){
+  //     $('#my_testimonials_panel #t1').fadeIn(1000);
+  //   }
+  //   else if(counter %3 == 1){
+  //     $('#my_testimonials_panel #t2').fadeIn(1000);
+  //   }
+  //   else if(counter %3 == 2){
+  //     $('#my_testimonials_panel #t3').fadeIn(1000);
+  //   }
+  //   counter ++;
+  // }
+
+  // setInterval(toggle, 3000);
