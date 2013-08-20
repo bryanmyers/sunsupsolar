@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"magin",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"ali",
+				"vertical-align"
+			],
+			[
 				"border",
 				"border-radius"
 			],
@@ -26,10 +50,6 @@
 			[
 				"padding",
 				"padding-top"
-			],
-			[
-				"margin",
-				"margin-bottom"
 			],
 			[
 				"border-radius",
@@ -108,10 +128,6 @@
 				"session_destroy"
 			],
 			[
-				"mar",
-				"margin-right"
-			],
-			[
 				"font-",
 				"font-weight"
 			],
@@ -184,10 +200,42 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Owner/Documents/WebFolder/directories.txt",
+			"file": "config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 131,
+				"buffer_size": 2110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/static_pages_controller.rb",
+			"settings":
+			{
+				"buffer_size": 75,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/application.css",
+			"settings":
+			{
+				"buffer_size": 1445,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 4120,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/static_pages/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 987,
 				"line_ending": "Windows"
 			}
 		}
@@ -216,6 +264,18 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/assets/javascripts/application.js",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/static_pages/home.html.erb",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/assets/javascripts/static_pages.js.coffee",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/assets/javascripts/jquery.bgswitcher.js",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/layouts/application.html.erb",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/assets/stylesheets/application.css",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/assets/stylesheets/custom.css.scss",
+		"/C/Users/Owner/Documents/WebFolder/dojo/CS350-Ruby-on-rails/notes/Database- setup.txt",
+		"/C/Users/Owner/Documents/WebFolder/dojo/CS350-Ruby-on-rails/notes/scaffolding notes.txt",
+		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP-MVC/OOP-Friend-Finder/css/mystyles.css",
+		"/C/Users/Owner/Documents/WebFolder/directories.txt",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/Gemfile",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/application/views/framework.php",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/application/views/contact.php",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/application/views/main_content.php",
@@ -259,7 +319,6 @@
 		"/C/Users/Owner/Documents/WebFolder/dojo/codeigniter/MVC-login/application/models/user.php",
 		"/C/Users/Owner/Documents/WebFolder/dojo/codeigniter/MVC-login/application/views/header.php",
 		"/C/Users/Owner/Documents/WebFolder/dojo/codeigniter/MVC-login/.htaccess",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP-MVC/OOP-Friend-Finder/css/mystyles.css",
 		"/C/Users/Owner/Documents/WebFolder/dojo/CS210-Ajax/dojo-ajax-sorting/css/ajax_sort_style.css",
 		"/C/Users/Owner/Documents/WebFolder/dojo/CS101-html-css/2css/3wordstream/index.html",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/.htaccess",
@@ -332,18 +391,7 @@
 		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Group debug/connection.php",
 		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Group debug/process.php",
 		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Group debug/css/polls.css",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Group debug/index.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Group debug/css/bootstrap.css",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Group debug/poll.sql",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/intermediate1/index.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/basic1/class_lib.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/basic2/index.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/basic2/class_lib.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/basic1/index.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS210-Ajax/dojo-ajax-sorting/index.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/class_lib.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/index.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS210-Ajax/dojo-ajax-notes2/php/header.php"
+		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Group debug/index.php"
 	],
 	"find":
 	{
@@ -361,6 +409,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"something",
+			"fade",
 			"9",
 			"path",
 			"images",
@@ -395,6 +445,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"links",
 			"assets",
 			"",
 			"'",
@@ -417,31 +468,153 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Owner/Documents/WebFolder/directories.txt",
+					"file": "config/routes.rb",
 					"settings":
 					{
-						"buffer_size": 131,
+						"buffer_size": 2110,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								131,
-								131
+								516,
+								516
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/static_pages_controller.rb",
+					"settings":
+					{
+						"buffer_size": 75,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/assets/stylesheets/application.css",
+					"settings":
+					{
+						"buffer_size": 1445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1415,
+								1415
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 682.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 4120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3492,
+								3492
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1191.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/static_pages/home.html.erb",
+					"settings":
+					{
+						"buffer_size": 987,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								220,
+								220
+							],
+							[
+								427,
+								427
+							],
+							[
+								628,
+								628
+							],
+							[
+								829,
+								829
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 66.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -505,6 +678,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 172.0,
+	"side_bar_width": 223.0,
 	"status_bar_visible": true
 }
