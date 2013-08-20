@@ -12,13 +12,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <!-- banner and nav -->
-<div class="navbar-fixed-top">
+  <!-- banner and nav for devices small and up -->
+<nav class="navbar-fixed-top hidden-xs">
   <div class="row" id="banner">
     <div class="col-xs-10 col-md-offset-1">
       <img class="img-responsive pull-left hidden-xs" id="logo" alt="Responsive Image" src="/assets/logo_no_text.png"/>
-      <h1 class="hidden-xs">Suns Up Solar</h1>
-      <h3 class="visible-xs">Suns Up Solar</h3>
+      <h1>Suns Up Solar</h1>
     </div>
   </div>
   <div class"row" id="navbar">
@@ -33,7 +32,32 @@
       </ul>
     </div>
   </div>
-</div>
+</nav>
+
+<nav class="navbar navbar-default visible-xs" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Suns Up solar</a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+        <li class="active"> <a href="#">Home            </a></li>
+        <li>                <a href="#">Solar Technology</a></li>
+        <li>                <a href="#">Residential     </a></li>
+        <li>                <a href="#">Commercial      </a></li>
+        <li>                <a href="#">About Us        </a></li>
+        <li>                <a href="#">News            </a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
 
 <%= yield %>
 
