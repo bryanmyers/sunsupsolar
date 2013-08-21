@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"max",
+				"max-width"
+			],
+			[
+				"jumbro",
+				"jumbotron1"
+			],
+			[
 				"back",
 				"background-color"
 			],
@@ -203,7 +211,7 @@
 			"file": "config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 2110,
+				"buffer_size": 2472,
 				"line_ending": "Unix"
 			}
 		},
@@ -211,23 +219,7 @@
 			"file": "app/controllers/static_pages_controller.rb",
 			"settings":
 			{
-				"buffer_size": 75,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/stylesheets/application.css",
-			"settings":
-			{
-				"buffer_size": 1445,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/application.html.erb",
-			"settings":
-			{
-				"buffer_size": 4120,
+				"buffer_size": 271,
 				"line_ending": "Unix"
 			}
 		},
@@ -235,7 +227,23 @@
 			"file": "app/views/static_pages/home.html.erb",
 			"settings":
 			{
-				"buffer_size": 987,
+				"buffer_size": 1968,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 3561,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/layouts/_header.html.erb",
+			"settings":
+			{
+				"buffer_size": 1132,
 				"line_ending": "Windows"
 			}
 		}
@@ -265,11 +273,27 @@
 	"file_history":
 	[
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/assets/javascripts/application.js",
-		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/static_pages/home.html.erb",
-		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/assets/javascripts/static_pages.js.coffee",
-		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/assets/javascripts/jquery.bgswitcher.js",
-		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/layouts/application.html.erb",
+		"/C/Users/Owner/Desktop/resume notes.txt",
+		"/C/Users/Owner/Desktop/facebook.txt",
+		"/C/Users/Owner/Desktop/resume notes",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/assets/stylesheets/static_pages.css.scss",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/assets/stylesheets/users.css.scss",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/assets/stylesheets/sessions.css.scss",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/static_pages/tech.html.erb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/assets/stylesheets/application.css",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/static_pages/about.html.erb",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/layouts/application.html.erb",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/static_pages/commercial.html.erb",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/static_pages/residential.html.erb",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/layouts/_nav_links.html.erb",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/layouts/_header.html.erb",
+		"/C/Users/Owner/Documents/WebFolder/templates/my_library/tabing and div switching.js",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/static_pages/home.html.erb",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/assets/javascripts/jquery-cycle.js",
+		"/C/Users/Owner/AppData/Local/Temp/Temp1_bootstrap-3.0.0.zip/bootstrap-3.0.0/dist/css/bootstrap.css",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/bootstrap-3.0.0.zip",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/assets/javascripts/jquery.bgswitcher.js",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/assets/javascripts/static_pages.js.coffee",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/assets/stylesheets/custom.css.scss",
 		"/C/Users/Owner/Documents/WebFolder/dojo/CS350-Ruby-on-rails/notes/Database- setup.txt",
 		"/C/Users/Owner/Documents/WebFolder/dojo/CS350-Ruby-on-rails/notes/scaffolding notes.txt",
@@ -375,23 +399,7 @@
 		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/OOP-Countries/php/mysql_connect.php",
 		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/OOP-Countries/php/selector.php",
 		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/OOP-Countries/php/constant.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/intermediate1/class_lib.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/basic3/class_lib.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Intermediate2/php/mysql_connect.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Intermediate2/php/connection.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Intermediate2/handout/connection.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Intermediate2/handout/constant.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/template setup/php/process.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/template setup/css/smoothness/jquery-ui-1.10.3.custom.css",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Intermediate2/handout/index.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Intermediate2/handout/process.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Intermediate2/world.sql",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Intermediate2/handout/wall.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Group debug/add_poll.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Group debug/connection.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Group debug/process.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Group debug/css/polls.css",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/Group debug/index.php"
+		"/C/Users/Owner/Documents/WebFolder/dojo/CS220-OOP/intermediate1/class_lib.php"
 	],
 	"find":
 	{
@@ -409,6 +417,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".\n",
+			"width",
+			"opaci",
+			"easing",
+			"easing\n",
+			"},\n",
+			"adjust",
+			"top",
+			"height",
+			"bgsw",
+			"div",
 			"something",
 			"fade",
 			"9",
@@ -468,7 +487,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -476,15 +495,15 @@
 					"file": "config/routes.rb",
 					"settings":
 					{
-						"buffer_size": 2110,
+						"buffer_size": 2472,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								516,
-								516
+								510,
+								510
 							]
 						],
 						"settings":
@@ -504,15 +523,15 @@
 					"file": "app/controllers/static_pages_controller.rb",
 					"settings":
 					{
-						"buffer_size": 75,
+						"buffer_size": 271,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								70,
-								70
+								134,
+								134
 							]
 						],
 						"settings":
@@ -527,26 +546,28 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/assets/stylesheets/application.css",
+					"file": "app/views/static_pages/home.html.erb",
 					"settings":
 					{
-						"buffer_size": 1445,
+						"buffer_size": 1968,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1415,
-								1415
+								112,
+								112
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 682.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -556,15 +577,15 @@
 					"file": "app/views/layouts/application.html.erb",
 					"settings":
 					{
-						"buffer_size": 4120,
+						"buffer_size": 3561,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3492,
-								3492
+								109,
+								109
 							]
 						],
 						"settings":
@@ -574,47 +595,33 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1191.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "app/views/static_pages/home.html.erb",
+					"file": "app/views/layouts/_header.html.erb",
 					"settings":
 					{
-						"buffer_size": 987,
+						"buffer_size": 1132,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								220,
-								220
-							],
-							[
-								427,
-								427
-							],
-							[
-								628,
-								628
-							],
-							[
-								829,
-								829
+								921,
+								921
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 66.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
