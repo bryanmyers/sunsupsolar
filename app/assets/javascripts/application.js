@@ -14,3 +14,22 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree 
+
+$(document).ready(function() {
+  return $('.slideshow').cycle({
+    fx: 'fade',
+    fit: true,
+    height: 'auto',
+    width: 'auto'
+  });
+});
+
+$(document).on("page:change", function() {
+  return $('.slideshow').cycle({
+    fx: 'fade',
+    fit: true,
+    height: 'auto',
+    width: 'auto'
+  });
+});
+

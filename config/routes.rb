@@ -11,6 +11,7 @@ SunsUpSolar::Application.routes.draw do
   match '/commercial',  to: 'static_pages#commercial',  via: 'get'
   match '/about',       to: 'static_pages#about',       via: 'get'
   match '/news',        to: 'static_pages#news',        via: 'get'
+  match '/save',        to: 'static_pages#save',        via: 'get'
 
   match '/signup',      to: 'users#new',                via: 'get'
   match '/signin',      to: 'sessions#new',             via: 'get'
