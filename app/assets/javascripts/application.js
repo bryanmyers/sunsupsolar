@@ -13,14 +13,4 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
-
-//feed the cycle.js plugin
-$(document).ready(function() {
-    $('.slideshow').cycle({
-    fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-    fit: true,
-    height: 'auto',
-    width: 'auto'
-  });
-});
+//= require_tree 
