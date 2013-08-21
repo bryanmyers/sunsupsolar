@@ -8,6 +8,9 @@ SunsUpSolar::Application.routes.draw do
 
   match '/tech',        to: 'static_pages#tech',        via: 'get'  
   match '/residential', to: 'static_pages#residential', via: 'get'
+  match '/commercial',  to: 'static_pages#commercial',  via: 'get'
+  match '/about',       to: 'static_pages#about',       via: 'get'
+  match '/news',        to: 'static_pages#news',        via: 'get'
 
   match '/signup',      to: 'users#new',                via: 'get'
   match '/signin',      to: 'sessions#new',             via: 'get'
