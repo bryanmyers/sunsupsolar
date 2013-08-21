@@ -26,12 +26,12 @@
   <div class"row" id="navbar">
     <div class="col-xs-10 col-md-offset-1">
       <ul class="nav nav-pills">
-        <li class="active"> <a href="#">Home            </a></li>
-        <li>                <a href="#">Solar Technology</a></li>
-        <li>                <a href="#">Residential     </a></li>
-        <li>                <a href="#">Commercial      </a></li>
-        <li>                <a href="#">About Us        </a></li>
-        <li>                <a href="#">News            </a></li>
+        <li class="active"> <%= link_to 'Home', '#' %>              </li>
+        <li>                <%= link_to 'Learn About Solar', '#' %> </li>
+        <li>                <%= link_to 'Residential', '#' %>       </li>
+        <li>                <%= link_to 'Commercial', '#' %>        </li>
+        <li>                <%= link_to 'About Us', '#' %>          </li>
+        <li>                <%= link_to 'News', '#' %>              </li>
       </ul>
     </div>
   </div>
@@ -54,13 +54,13 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav">
-        <li class="active"> <a href="#">Home            </a></li>
-        <li>                <a href="#">Solar Technology</a></li>
-        <li>                <a href="#">Residential     </a></li>
-        <li>                <a href="#">Commercial      </a></li>
-        <li>                <a href="#">About Us        </a></li>
-        <li>                <a href="#">News            </a></li>
-    </ul>
+        <li class="active"> <%= link_to 'Home', '#' %>              </li>
+        <li>                <%= link_to 'Learn About Solar', '#' %> </li>
+        <li>                <%= link_to 'Residential', '#' %>       </li>
+        <li>                <%= link_to 'Commercial', '#' %>        </li>
+        <li>                <%= link_to 'About Us', '#' %>          </li>
+        <li>                <%= link_to 'News', '#' %>              </li>
+      </ul>
   </div><!-- /.navbar-collapse -->
 </nav>
 <div class="container" id="main_container">
@@ -72,38 +72,47 @@
 </div>
 
 <footer id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-3">
-        <h4>Column 1</h4>
-        <p>links</p>
-        <p>links</p>
-        <p>links</p>
-        <p>links</p>
-      </div>
-      <div class="col-xs-3">
-        <h4>Column 2</h4>
-        <p>links</p>
-        <p>links</p>
-        <p>links</p>
-        <p>links</p>
-      </div>
-      <div class="col-xs-3">
-        <h4>Column 3</h4>
-        <p>links</p>
-        <p>links</p>
-        <p>links</p>
-        <p>links</p>
-      </div>
-      <div class="col-xs-3">
-        <h4>Column 4</h4>
-        <p>links</p>
-        <p>links</p>
-        <p>links</p>
-        <p>links</p>
+  <small>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-3">
+          <h4>Column 1</h4>
+          <ul>
+          <li class="active"> <%= link_to 'Home', '#' %>              </li>
+          <li>                <%= link_to 'Learn About Solar', '#' %> </li>
+          <li>                <%= link_to 'Residential', '#' %>       </li>
+          <li>                <%= link_to 'Commercial', '#' %>        </li>
+          <li>                <%= link_to 'About Us', '#' %>          </li>
+          <li>                <%= link_to 'News', '#' %>              </li>
+        </ul>
+        </div>
+        <div class="col-xs-3">
+          <h4>Column 2</h4>
+          <p>links</p>
+          <p>links</p>
+          <p>links</p>
+          <p>links</p>
+        </div>
+        <div class="col-xs-3">
+          <h4>Column 3</h4>
+          <p>links</p>
+          <p>links</p>
+          <p>links</p>
+          <p>links</p>
+        </div>
+        <div class="col-xs-3">
+          <h4>Column 4</h4>
+          <p>links</p>
+          <p>links</p>
+          <p>links</p>
+          <p>links</p>
+        </div>
       </div>
     </div>
-  </div>
+    <div id="company_info">
+      <p>This is where the company address, copyright etc will go</p>
+    </div>
+  </small>
 </footer>
 
 </body>
