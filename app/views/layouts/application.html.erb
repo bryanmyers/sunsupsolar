@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Suns Up Solar | <%= yield(:title) %> </title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Find out how you can save money and pollution by installing Solar PV and and Solar Hot Water Systems. On and off grid, Northern California.">
-  <meta name="keywords" content="santa cruz,solar panels, santa cruz solar,solar  installer,solar installer santa cruz,solar contractor,solar contractor santa cruz, residential solar,commercial solar,solar hot water,solar electric, photovoltaic, solar solutions, turn key,solar monterey,solar power santa cruz, solar panels scotts valley,green energy,solar financing,renewable energy,solar panel,solar,suns up solar,solar santa cruz county,solar pv santa cruz,solar pv scotts valley">
-  <%= stylesheet_link_tag    "bootstrap.min.css", "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
+  <%= render '/layouts/header.html.erb' %>
 </head>
 <body>
   <!-- banner and nav for devices small and up -->
@@ -25,14 +17,7 @@
   </div>
   <div class"row" id="navbar">
     <div class="col-xs-10 col-md-offset-1">
-      <ul class="nav nav-pills">
-        <li class="active"> <%= link_to 'Home',              root_path        %> </li>
-        <li>                <%= link_to 'Learn About Solar', tech_path        %> </li>
-        <li>                <%= link_to 'Residential',       residential_path %> </li>
-        <li>                <%= link_to 'Commercial',        commercial_path  %> </li>
-        <li>                <%= link_to 'About Us',          about_path       %> </li>
-        <li>                <%= link_to 'News',              news_path        %> </li>
-      </ul>
+      <%= render 'layouts/nav_links.html.erb' %>
     </div>
   </div>
 </nav>

@@ -1,0 +1,8 @@
+<ul class="nav nav-pills">
+  <li <%= "class=active" if yield(:title) == "Home"        %>> <%= link_to 'Home',               root_path %> </li>
+  <li <%= "class=active" if yield(:title) == "Tech"        %>> <%= link_to 'Learn About Solar',  tech_path %> </li>
+  <li <%= "class=active" if yield(:title) == "Residential" %>> <%= link_to 'Residential', residential_path %> </li>
+  <li <%= "class=active" if yield(:title) == "Commercial"  %>> <%= link_to 'Commercial',   commercial_path %> </li>
+  <li <%= "class=active" if yield(:title) == "About Us"    %>> <%= link_to 'About Us',          about_path %> </li>
+  <li <%= "class=active" if yield(:title) == "News"        %>> <%= link_to 'News',               news_path %> </li>
+</ul>
