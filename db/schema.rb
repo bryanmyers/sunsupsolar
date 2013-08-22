@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130822005809) do
+ActiveRecord::Schema.define(version: 20130822014842) do
 
   create_table "installations", force: true do |t|
     t.string   "address"
@@ -47,6 +47,7 @@ ActiveRecord::Schema.define(version: 20130822005809) do
     t.string   "password"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "zip"
   end
 
 end
