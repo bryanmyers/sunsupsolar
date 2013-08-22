@@ -15,9 +15,6 @@ class StaticPagesController < ApplicationController
   def about
   end
 
-  def news
-  end
-
   def save
   end
 

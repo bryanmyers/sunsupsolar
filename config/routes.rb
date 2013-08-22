@@ -1,7 +1,7 @@
 SunsUpSolar::Application.routes.draw do
+  resources :news
   resources :installations
   resources :users
-
   resources :sessions, only: [:new, :create, :destroy]
 
   root to: 'static_pages#home'
