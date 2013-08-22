@@ -24,7 +24,7 @@ class StaticPagesController < ApplicationController
   def green
   end
 
-  def independance
+  def independence
   end
 
   def maintenance

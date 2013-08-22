@@ -3,53 +3,68 @@
 <div class="slideshow">
   <div class="jumbotron" id="jumbotron1">
     <div class="container">
-      <h1>Energy independence.... for less.</h1>
-      <p><a class="btn btn-primary btn-lg">Learn more</a></p>
+      <div class="jumbo_text">
+        <h1>Energy independence</h1>
+        <h3>For less than you pay now<h3>
+      </div>
+      <p><a class="btn btn-primary btn-lg jumbobtn">Learn more</a></p>
     </div>
   </div>
 
   <div class="jumbotron" id="jumbotron2">
     <div class="container">
-      <h1>Energy independence.... for less.</h1>
-      <p><a class="btn btn-primary btn-lg">Learn more</a></p>
+      <div class="jumbo_text">
+        <h1>Energy independence</h1>
+        <h3>For less than you pay now<h3>
+      </div>
+      <p><a class="btn btn-primary btn-lg jumbobtn">Learn more</a></p>
     </div>
   </div>
 
   <div class="jumbotron" id="jumbotron3">
     <div class="container">
-      <h1>Energy independence.... for less.</h1>
-      <p><a class="btn btn-primary btn-lg">Learn more</a></p>
+      <div class="jumbo_text">
+        <h1>Energy Independence</h1>
+        <h3>For less than you pay now<h3>
+      </div>
+      <p><a class="btn btn-primary btn-lg jumbobtn">Learn more</a></p>
     </div>
   </div>
 
   <div class="jumbotron" id="jumbotron4">
     <div class="container">
-      <h1>Energy independence.... for less.</h1>
-      <p><a class="btn btn-primary btn-lg">Learn more</a></p>
+      <div class="jumbo_text">
+        <h1>Energy Independence</h1>
+        <h3>For less than you pay now<h3>
+      </div>
+      <p><a class="btn btn-primary btn-lg jumbobtn">Learn more</a></p>
     </div>
   </div>
 
   <div class="jumbotron" id="jumbotron5">
     <div class="container">
-      <h1>Energy independence.... for less.</h1>
-      <p><a class="btn btn-primary btn-lg">Learn more</a></p>
+      <div class="jumbo_text">
+        <h1>Energy Independence</h1>
+        <h3>For less than you pay now<h3>
+      </div>
+      <p><a class="btn btn-primary btn-lg jumbobtn">Learn more</a></p>
     </div>
   </div>
 </div>
 
   <div class="col-xs-3 boxes">
-    <img src="/assets/save_money.jpg" alt="image" class="img-circle">
+    <%= link_to image_tag("save_money.jpg", alt: "Save Money Icon", class: "img-circle"), save_path %>
     <h3>Save Money</h3>
     <p>Lower your energy costs with solar electrical and hot water systems</p>
   </div>
     <div class="col-xs-3 boxes">
-    <img src="/assets/go_green.jpg" alt="image" class="img-circle">
+    <%= link_to image_tag("go_green.jpg", alt: "Go Green Icon", class: "img-circle"), green_path %>
     <h3>Go Green</h3>
     <p>Take responsibility for doing your part to lower carbon emissions.</p>
   </div>
     <div class="col-xs-3 boxes">
-    <img src="/assets/energy_independance.jpg" alt="image" class="img-circle">
-    <h3>Energy Independance</h3>
+    <%= link_to image_tag("energy_independence.jpg", alt: "Energy Independence Logo", class: "img-circle"), independence_path %>
+    <h3>Energy Independence</h3>
     <p>Live off the grid, or simply help save lives overseas.</p>
   </div>
     <div class="col-xs-3 boxes">

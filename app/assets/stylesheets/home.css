@@ -6,6 +6,16 @@
   background-size: 100% 100%;
   box-shadow: 0px 0px 7px gray;
 }
+.jumbo_text{
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px white;
+  padding: 5px;
+  text-align: center;
+}
+.jumbobtn{
+  margin-top: 10px;
+}
 #jumbotron1{
   background-image: url('grass.jpg');
 }
