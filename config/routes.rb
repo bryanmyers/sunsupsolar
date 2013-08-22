@@ -10,7 +10,6 @@ SunsUpSolar::Application.routes.draw do
   match '/residential', to: 'static_pages#residential', via: 'get'
   match '/commercial',  to: 'static_pages#commercial',  via: 'get'
   match '/about',       to: 'static_pages#about',       via: 'get'
-  match '/news',        to: 'news#index',               via: 'get'
   match '/save',        to: 'static_pages#save',        via: 'get'
   match '/green',       to: 'static_pages#green',       via: 'get'
   match '/independence',to: 'static_pages#independence',via: 'get'
