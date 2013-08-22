@@ -1,7 +1,8 @@
+<% provide(:title, 'New User') %>
 
 <div class="row">
-  <div class="col-xs-6">
-    <h2>I'm ready to go, how is this going to work?</h2>
+  <div class="col-xs-6" id="process_accordion">
+    <h3>I'm ready to go, how is this going to work?</h3>
     <div class="panel-group" id="accordion">
       <div class="panel panel-default">
         <div class="panel-heading">
@@ -84,13 +85,9 @@
       </div>
     </div>
   </div>
-  <div class="col-xs-6">
-    <h2>Please Contact Me</h2>
+  <div class="col-xs-6" id="contact_form">
+    <h3>Please Contact Me</h3>
 
     <%= render 'form' %>
   </div>
 </div>
-
-
-
-<%= link_to 'Back', users_path %>

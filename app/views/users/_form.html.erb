@@ -1,4 +1,4 @@
-<%= form_for(@user) do |f| %>
+<%= form_for @user, html: {class: 'form-inline', role: 'form'} do |f| %>
   <% if @user.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
@@ -11,43 +11,39 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label :email %><br>
-    <%= f.text_field :email %>
-  </div>
-  <div class="field">
-    <%= f.label :phone %><br>
-    <%= f.text_field :phone %>
-  </div>
-  <div class="field">
-    <%= f.label :address %><br>
-    <%= f.text_field :address %>
-  </div>
-  <div class="field">
-    <%= f.label :zip %><br>
-    <%= f.text_field :zip %>
-  </div>
-  <div class="field">
-    <%= f.label :best_time %><br>
-    <%= f.text_field :best_time %>
-  </div>
-  <div class="field">
-    <%= f.label :e_bill %><br>
-    <%= f.number_field :e_bill %>
-  </div>
-  <div class="field">
-    <%= f.label :access %><br>
-    <%= f.number_field :access %>
-  </div>
-  <div class="field">
-    <%= f.label :password %><br>
-    <%= f.text_field :password %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+    <div class="field">
+      <%= f.label :name %>
+      <%= f.text_field :name, class: 'form-control', placeholder: 'Ex: Sunny Solar'  %>
+    </div>
+    <div class="field">
+      <%= f.label :address %>
+      <%= f.text_field :address, class: 'form-control', placeholder: 'Ex: 111 Example Way' %>
+    </div>
+    <div class="col-xs-6 pull-left">
+      <div class="field">
+        <%= f.label :phone %>
+        <%= f.text_field :phone, class: 'form-control', placeholder: 'Ex: 1112223333' %>
+      </div>
+      <div class="field">
+        <%= f.label :email %>
+        <%= f.text_field :email, class: 'form-control', placeholder: 'Ex: something@example.com' %>
+      </div>
+    </div>
+    <div class="col-xs-6 pull-right">
+      <div class="field">
+        <%= f.label 'Best Time to Call' %>
+        <%= f.text_field :best_time, class: 'form-control', placeholder: 'Ex: 9am' %>
+      </div>    
+      <div class="field">
+        <%= f.label :zip %>
+        <%= f.text_field :zip, class: 'form-control', placeholder: 'Ex: 95060' %>
+      </div>
+    </div>
+    <div class="field">
+      <%= f.label 'Electric Bill' %>
+      <%= f.number_field :e_bill, class: 'form-control', placeholder: 'Ex: 200' %>
+    </div>
+    <div class="actions">
+      <%= f.submit 'Make It So', class: 'btn btn-info btn-success', id: 'user_button' %>
+    </div>
 <% end %>

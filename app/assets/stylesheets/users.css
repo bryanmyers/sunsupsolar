@@ -1,0 +1,20 @@
+#process_accordion{
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 20px;
+}
+#process_accordion h3{
+  text-align: center;
+}
+#contact_form{
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 20px;
+}
+#contact_form h3{
+  text-align: center;
+}
+#user_button{
+  margin-left: 40%;
+  margin-right: 50%;
+}

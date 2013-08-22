@@ -14,7 +14,6 @@
       <h1>Suns Up Solar</h1>
       </div>
       <!-- <button type="button" class="btn btn-info pull-right" id="contact_button">Get In Touch</button> -->
-      <%= link_to 'Get In Touch', about_path, class: 'btn btn-info pull-right', id:'contact_button' %>
       <%= link_to 'I Want Solar', new_user_path, class: 'btn btn-info pull-right', id:'contact_button' %>
     </div>
   </div>
@@ -46,7 +45,7 @@
         <li>                <%= link_to 'Learn About Solar', tech_path %> </li>
         <li>                <%= link_to 'Residential', residential_path %>       </li>
         <li>                <%= link_to 'Commercial', commercial_path %>        </li>
-        <li>                <%= link_to 'About Us', about_path %>          </li>
+        <li>                <%= link_to 'About Us / Contact', about_path %>          </li>
         <li>                <%= link_to 'News', news_index_path %>              </li>
       </ul>
   </div><!-- /.navbar-collapse -->
@@ -66,34 +65,40 @@
         <div class="col-xs-3">
           <h4>Nav Links</h4>
           <ul>
-          <li class="active"> <%= link_to 'Home', root_path %>              </li>
-          <li>                <%= link_to 'Learn About Solar', tech_path %> </li>
-          <li>                <%= link_to 'Residential', residential_path %></li>
-          <li>                <%= link_to 'Commercial', commercial_path %>  </li>
-          <li>                <%= link_to 'About Us', about_path %>         </li>
-          <li>                <%= link_to 'News', news_index_path %>        </li>
-        </ul>
+            <li class="active"> <%= link_to 'Home', root_path %>              </li>
+            <li>                <%= link_to 'Learn About Solar', tech_path %> </li>
+            <li>                <%= link_to 'Residential', residential_path %></li>
+            <li>                <%= link_to 'Commercial', commercial_path %>  </li>
+            <li>                <%= link_to 'About Us', about_path %>         </li>
+            <li>                <%= link_to 'News', news_index_path %>        </li>
+          </ul>
         </div>
         <div class="col-xs-3">
           <h4>Internal Links</h4>
-          <p><%= link_to 'I Want Solar', new_user_path %></p>
-          <p><%= link_to 'Get In Touch', about_path %></p>
-          <p>links</p>
-          <p>links</p>
+          <ul>
+            <li><%= link_to 'I Want Solar', new_user_path %></li>
+            <li><%= link_to 'Get In Touch', about_path %></li>
+            <li>links</li>
+            <li>links</li>
+          </ul>
         </div>
         <div class="col-xs-3">
           <h4>External Links</h4>
-          <p>links</p>
-          <p>links</p>
-          <p>links</p>
-          <p>links</p>
+          <ul>
+            <li>links</li>
+            <li>links</li>
+            <li>links</li>
+            <li>links</li>
+          </ul>
         </div>
         <div class="col-xs-3">
           <h4>External Links</h4>
-          <p>links</p>
-          <p>links</p>
-          <p>links</p>
-          <p>links</p>
+          <ul>
+            <li>links</li>
+            <li>links</li>
+            <li>links</li>
+            <li>links</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -103,7 +108,7 @@
         224 Dufour Street
         Santa Cruz, CA 95060
         Phone: (831) 458-0203
-        Email: peter@sunsupsolar.com
+        Email: info@sunsupsolar.com
       </address>
     </div>
   </small>
