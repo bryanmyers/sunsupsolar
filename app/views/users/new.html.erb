@@ -1,5 +1,96 @@
-<h1>New user</h1>
 
-<%= render 'form' %>
+<div class="row">
+  <div class="col-xs-6">
+    <h2>I'm ready to go, how is this going to work?</h2>
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+              1) Evaluate Your Home
+            </a>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+          <div class="panel-body">
+            <ul>
+              <li>Do you own your home?</li>
+              <li>Do you have roof space - with little or no shading - facing south, east or west?</li>
+              <li>Do you pay $100 or more a month for electricity?</li>
+              <li><em>If you answered YES to all three then you can get started with solar - keep going!</em></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+              2) Get a Free Solar Consultation
+            </a>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+          <div class="panel-body">
+            <p>Now that you've done an intial evaluation, we will provide a free, in-depth solar consultation. After this quick analysis, we can advise you whether solar is a wise investment for your home.</p>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+              3) Select Your Payment Option
+            </a>
+          </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+          <div class="panel-body">
+            <p>Think about these so that we can discuss them durinng your free consultation</p>
+            <ul>
+              <li>Purchasing your system outright.</li>
+              <li>Financing your system.  </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+              4) System Installation
+            </a>
+          </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse">
+          <div class="panel-body">
+            <p>Suns Up Solar will manage every aspect of installation - beginning with permits and paperwork all the way to switching it on - and guarantee it all goes as planned. Our certified installers will get the job done safely and professionally so you can enjoy the seamless transition to clean, renewable energy produced on demand at your home.</p>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+              5) Turn On Your System and Start Producing
+            </a>
+          </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse">
+          <div class="panel-body">
+            <p>After installation, we'll activate your system and set you up with web-based monitoring.  This service helps ensure everything is performing as expected, and it's a convenient and powerful way for you to keep track of your electricity production and use - and frankly, it's kind of fun to watch!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-6">
+    <h2>Please Contact Me</h2>
+
+    <%= render 'form' %>
+  </div>
+</div>
+
+
 
 <%= link_to 'Back', users_path %>
