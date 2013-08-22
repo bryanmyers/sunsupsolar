@@ -4,5 +4,5 @@
   <li <%= "class=active" if yield(:title) == "Residential" %>> <%= link_to 'Residential', residential_path %> </li>
   <li <%= "class=active" if yield(:title) == "Commercial"  %>> <%= link_to 'Commercial',   commercial_path %> </li>
   <li <%= "class=active" if yield(:title) == "About Us"    %>> <%= link_to 'About Us',          about_path %> </li>
-  <li <%= "class=active" if yield(:title) == "News"        %>> <%= link_to 'News',               news_path %> </li>
+  <li <%= "class=active" if yield(:title) == "News"        %>> <%= link_to 'News',               '#' %> </li>
 </ul>

@@ -14,6 +14,9 @@ SunsUpSolar::Application.routes.draw do
   match '/green',       to: 'static_pages#green',       via: 'get'
   match '/independence',to: 'static_pages#independence',via: 'get'
 
+#this is broken
+  match 'news',         to: 'news#index',               via: 'get'
+
   match '/signup',      to: 'users#new',                via: 'get'
   match '/signin',      to: 'sessions#new',             via: 'get'
   match '/signout',     to: 'sessions#destroy',         via: 'delete'
