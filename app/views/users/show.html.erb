@@ -1,18 +1,22 @@
+<% provide(:title, 'User Details')%>
+
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
-  <%= @user.name %>
+  <h2> <%= @user.name %> </h2>
 </p>
 
 <p>
   <strong>Email:</strong>
+
   <%= @user.email %>
 </p>
 
 <p>
   <strong>Phone:</strong>
-  <%= @user.phone %>
+  <% pn = Phoner::Phone.parse(@user.phone.to_s) %>
+  <%= pn.format('(%a) %f-%l') %>
+  <% #@user.phone %>
 </p>
 
 <p>
@@ -21,28 +25,23 @@
 </p>
 
 <p>
-  <strong>Zip:</strong>
+  <strong>Zip Code:</strong>
   <%= @user.zip %>
 </p>
 
 <p>
-  <strong>Best time:</strong>
+  <strong>Best Time to Call:</strong>
   <%= @user.best_time %>
 </p>
 
 <p>
-  <strong>E bill:</strong>
+  <strong>Electric Bill:</strong>
   <%= @user.e_bill %>
 </p>
 
 <p>
-  <strong>Access:</strong>
+  <strong>Access Key:</strong>
   <%= @user.access %>
-</p>
-
-<p>
-  <strong>Password:</strong>
-  <%= @user.password %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |

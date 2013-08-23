@@ -1,17 +1,18 @@
-<h1>Listing users</h1>
+<% provide(:title, 'User List') %>
+<h2>Listing users</h2>
 
-<table>
+<div class="table-responsive">
+<table class="table table-bordered">
   <thead>
     <tr>
       <th>Name</th>
-      <th>Email</th>
-      <th>Phone</th>
       <th>Address</th>
-      <th>Zip</th>
-      <th>Best time</th>
-      <th>E bill</th>
-      <th>Access</th>
-      <th>Password</th>
+      <th>Phone</th>
+      <th>Best TTC</th>
+      <th>Email</th>
+      <th>Zip Code</th>
+      <th>E Bill</th>
+      <th>Access Key</th>
       <th></th>
       <th></th>
       <th></th>
@@ -22,22 +23,21 @@
     <% @users.each do |user| %>
       <tr>
         <td><%= user.name %></td>
-        <td><%= user.email %></td>
-        <td><%= user.phone %></td>
         <td><%= user.address %></td>
-        <td><%= user.zip %></td>
+        <td><% pn = Phoner::Phone.parse(user.phone.to_s) %>
+            <%= pn.format('(%a) %f-%l') %></td>
         <td><%= user.best_time %></td>
+        <td><%= user.email %></td>
+        <td><%= user.zip %></td>
         <td><%= user.e_bill %></td>
         <td><%= user.access %></td>
-        <td><%= user.password %></td>
         <td><%= link_to 'Show', user %></td>
         <td><%= link_to 'Edit', edit_user_path(user) %></td>
-        <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Delete', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
 </table>
+</div>
 
 <br>
-
-<%= link_to 'New User', new_user_path %>
