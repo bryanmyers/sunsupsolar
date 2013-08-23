@@ -1,3 +1,4 @@
 class News < ActiveRecord::Base
-  belongs_to :users
+  belongs_to :user
+  validates :title, :content, :user_id, presence: true 
 end

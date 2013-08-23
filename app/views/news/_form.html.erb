@@ -12,12 +12,12 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
+    <%= f.label 'Author' %><br>
+    <%= f.text_field :user_id %>
   </div>
   <div class="field">
-    <%= f.label :author %><br>
-    <%= f.text_field :author %>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
   </div>
   <div class="field">
     <%= f.label :content %><br>
@@ -26,10 +26,6 @@
   <div class="field">
     <%= f.label :image %><br>
     <%= f.text_field :image %>
-  </div>
-  <div class="field">
-    <%= f.label :users %><br>
-    <%= f.text_field :users %>
   </div>
   <div class="actions">
     <%= f.submit %>

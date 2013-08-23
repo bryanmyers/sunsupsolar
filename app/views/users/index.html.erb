@@ -1,6 +1,8 @@
 <% provide(:title, 'User List') %>
 <h2>Registered Users</h2>
 
+<% will_paginate %>
+
 <div class="table-responsive">
 <table class="table table-bordered">
   <thead>
@@ -31,7 +33,7 @@
         <td><%= user.zip %></td>
         <td><%= user.e_bill %></td>
         <td><%= user.access %></td>
-        <td><%= link_to 'Show', user %></td>
+        <td><%= link_to 'Details', user %></td>
         <td><%= link_to 'Edit', edit_user_path(user) %></td>
         <td><%= link_to 'Delete', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
@@ -39,5 +41,5 @@
   </tbody>
 </table>
 </div>
-
+<% will_paginate %>
 <br>

@@ -4,7 +4,7 @@ class InstallationsController < ApplicationController
   # GET /installations
   # GET /installations.json
   def index
-    @installations = Installation.all
+    @installations = Installation.paginate(page: params[:page])
   end
 
   # GET /installations/1
@@ -69,6 +69,6 @@ class InstallationsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def installation_params
-      params.require(:installation).permit(:address, :city, :zip, :users_id)
+      params.require(:installation).permit(:address, :city, :zip, :user_id)
     end
 end

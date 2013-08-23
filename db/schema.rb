@@ -11,30 +11,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130822014842) do
+ActiveRecord::Schema.define(version: 20130823024527) do
 
   create_table "installations", force: true do |t|
     t.string   "address"
     t.string   "city"
     t.integer  "zip"
-    t.integer  "users_id"
+    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "installations", ["users_id"], name: "index_installations_on_users_id"
+  add_index "installations", ["user_id"], name: "index_installations_on_user_id"
 
   create_table "news", force: true do |t|
     t.string   "title"
-    t.string   "author"
     t.text     "content"
     t.string   "image"
-    t.integer  "users_id"
+    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "news", ["users_id"], name: "index_news_on_users_id"
+  add_index "news", ["user_id"], name: "index_news_on_user_id"
 
   create_table "users", force: true do |t|
     t.string   "name"
