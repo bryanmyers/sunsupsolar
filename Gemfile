@@ -27,12 +27,13 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-#load bootstrap. Probably version 2.3.2
-gem 'bootstrap-sass'
-
 gem 'bcrypt-ruby'
 
 gem 'phone'
+
+gem 'will_paginate'
+
+gem 'bootstrap-will_paginate'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
