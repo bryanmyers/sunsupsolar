@@ -234,6 +234,14 @@
 				"buffer_size": 837,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 452,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -260,6 +268,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Owner/Documents/WebFolder/dojo/Black-Test-2b/Gemfile",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/Gemfile",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/layouts/application.html.erb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/layouts/_header.html.erb",
@@ -386,8 +395,7 @@
 		"/C/Users/Owner/Documents/WebFolder/dojo/CS340-NodeJS/node_test.js",
 		"/C/Users/Owner/Documents/WebFolder/dojo/codeigniter/MVC-login/application/models/message_model.php",
 		"/C/Users/Owner/Documents/WebFolder/dojo/codeigniter/MVC-login/application/controllers/signin.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/codeigniter/MVC-login/application/controllers/register.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/codeigniter/MVC-login/assets/php/process.php"
+		"/C/Users/Owner/Documents/WebFolder/dojo/codeigniter/MVC-login/application/controllers/register.php"
 	],
 	"find":
 	{
@@ -478,6 +486,7 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -501,6 +510,32 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								390,
+								390
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
