@@ -228,11 +228,11 @@
 	"buffers":
 	[
 		{
-			"file": "Gemfile",
+			"file": "/C/Users/Owner/Documents/WebFolder/dojo/CS350-Ruby-on-rails/notes/Database- setup.txt",
 			"settings":
 			{
-				"buffer_size": 1360,
-				"line_ending": "Unix"
+				"buffer_size": 837,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -260,9 +260,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/Gemfile",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/layouts/application.html.erb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/layouts/_header.html.erb",
-		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/Gemfile",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/config/routes.rb",
 		"/C/Users/Owner/Documents/WebFolder/dojo/CS350-Ruby-on-rails/notes/heroku",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/bin/rake",
@@ -395,7 +395,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 102.0,
+		"height": 0.0,
 		"where_history":
 		[
 			""
@@ -478,28 +478,29 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Gemfile",
+					"file": "/C/Users/Owner/Documents/WebFolder/dojo/CS350-Ruby-on-rails/notes/Database- setup.txt",
 					"settings":
 					{
-						"buffer_size": 1360,
+						"buffer_size": 837,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								274,
-								274
+								298,
+								298
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

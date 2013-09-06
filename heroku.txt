@@ -1,0 +1,9 @@
+heroku sunsupsolar app
+
+http://sunsupsolar.herokuapp.com
+
+Git URL git@heroku.com:sunsupsolar.git
+
+use the following to set up your app for local
+
+git clone git@heroku.com:sunsupsolar.git -o heroku
