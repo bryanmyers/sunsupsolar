@@ -37,12 +37,12 @@ nav{
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EBEBEB), color-stop(1, #FFFFFF));
   box-shadow: -5px 0px 7px gray;
   margin-top: 30px;
-  margin-bottom: 0px;
+/*  margin-bottom: 0px;*/
   padding-top: 10px;
   padding-bottom: 10px;
 }
 #company_info p{
-  margin-bottom: 0px;
+/*  margin-bottom: 0px;*/
 }
 address{
   text-align: center; 
