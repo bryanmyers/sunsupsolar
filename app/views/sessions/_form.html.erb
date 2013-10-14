@@ -1,4 +1,12 @@
-  <%= form_for(:signin, url: signin_path) do |f| %>
+<%= form_for(:signin, url: signin_path) do |f| %>
+
+  <% if flash.any? %>
+    <div class="alert alert-danger">
+      <% flash.each do |key, value| %>
+          *<%= value %>
+      <% end %>
+    </div>
+  <% end %>
 
   <div class="field">
     <%= f.label :email %>
@@ -17,4 +25,4 @@
     <%= link_to 'I want solar', signup_path %>
   </div>
 
-  <% end %>
+<% end %>
