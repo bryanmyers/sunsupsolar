@@ -1,6 +1,6 @@
 SunsUpSolar::Application.routes.draw do
   resources :news
-  resources :users
+  resources :users, except: [:show, :update, :edit]
   resources :sessions, only: [:new, :create, :destroy]
 
   root to: 'static_pages#home'
