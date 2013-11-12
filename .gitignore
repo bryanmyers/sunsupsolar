@@ -15,8 +15,8 @@
 /log/*.log
 /tmp
 
-SunsUpSolar.sublime-project
-SunsUpSolar.sublime-workspace
+*SunsUpSolar.sublime-project*
+*SunsUpSolar.sublime-workspace*
 bootstrap-3.0.0.zip
 ERD.mwb
 SunsUpsolar ERD.mwb.bak
