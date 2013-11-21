@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130823024527) do
+ActiveRecord::Schema.define(version: 20131121213811) do
 
   create_table "installations", force: true do |t|
     t.string   "address"
@@ -43,7 +43,7 @@ ActiveRecord::Schema.define(version: 20130823024527) do
     t.string   "best_time"
     t.integer  "e_bill"
     t.integer  "access"
-    t.string   "password"
+    t.string   "password_digest"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "zip"
