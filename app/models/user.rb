@@ -1,7 +1,7 @@
 class User < ActiveRecord::Base
 
-  # has_secure_password
-  has_many :installations
+  has_secure_password
+
   has_many :news, foreign_key: "user_id"
 
   before_save { email.downcase! }
