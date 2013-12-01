@@ -28,6 +28,9 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.save
+        # sign them in
+        session[:user_id] = @user.id 
+        # send them to the user details page
         format.html { redirect_to @user, notice: 'User was successfully created.' }
         format.json { render action: 'show', status: :created, location: @user }
       else
