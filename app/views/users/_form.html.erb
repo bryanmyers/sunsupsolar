@@ -11,39 +11,51 @@
     </div>
   <% end %>
 
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name, class: 'form-control', placeholder: 'Ex: Sunny Solar'  %>
+  </div>
+  <div class="field">
+    <%= f.label :address %>
+    <%= f.text_field :address, class: 'form-control', placeholder: 'Ex: 111 Example Way' %>
+  </div>
+  <div class="col-xs-6 pull-left">
     <div class="field">
-      <%= f.label :name %>
-      <%= f.text_field :name, class: 'form-control', placeholder: 'Ex: Sunny Solar'  %>
-    </div>
-    <div class="field">
-      <%= f.label :address %>
-      <%= f.text_field :address, class: 'form-control', placeholder: 'Ex: 111 Example Way' %>
-    </div>
-    <div class="col-xs-6 pull-left">
-      <div class="field">
-        <%= f.label :phone %>
-        <%= f.text_field :phone, class: 'form-control', placeholder: 'Ex: 1112223333' %>
-      </div>
-      <div class="field">
-        <%= f.label :email %>
-        <%= f.text_field :email, class: 'form-control', placeholder: 'Ex: something@example.com' %>
-      </div>
-    </div>
-    <div class="col-xs-6 pull-right">
-      <div class="field">
-        <%= f.label 'Best Time to Call' %>
-        <%= f.text_field :best_time, class: 'form-control', placeholder: 'Ex: 9am' %>
-      </div>    
-      <div class="field">
-        <%= f.label :zip %>
-        <%= f.text_field :zip, class: 'form-control', placeholder: 'Ex: 95060' %>
-      </div>
+      <%= f.label :phone %>
+      <%= f.text_field :phone, class: 'form-control', placeholder: 'Ex: 8311234567' %>
     </div>
     <div class="field">
-      <%= f.label 'Electric Bill' %>
-      <%= f.number_field :e_bill, class: 'form-control', placeholder: 'Ex: 200' %>
+      <%= f.label :email %>
+      <%= f.text_field :email, class: 'form-control', placeholder: 'Ex: something@example.com' %>
     </div>
-    <div class="actions">
-      <%= f.submit 'Make It So', class: 'btn btn-primary btn-lg', id: 'user_button' %>
+  </div>
+  <div class="col-xs-6 pull-right">
+    <div class="field">
+      <%= f.label 'Best Time to Call' %>
+      <%= f.text_field :best_time, class: 'form-control', placeholder: 'Ex: 9am' %>
+    </div>    
+    <div class="field">
+      <%= f.label :zip %>
+      <%= f.text_field :zip, class: 'form-control', placeholder: 'Ex: 95060' %>
     </div>
+  </div>
+  <div class="field">
+    <%= f.label 'Electric Bill' %>
+    <%= f.number_field :e_bill, class: 'form-control', placeholder: 'Ex: 200' %>
+  </div>
+  <div class="col-xs-6 pull-left">
+    <div class="field">
+      <%= f.label "Password" %><br>
+      <%= f.password_field :password %>
+    </div>
+  </div>
+  <div class="col-xs-6 pull-right">
+    <div class="field">
+      <%= f.label "Password Confirmation" %><br>
+      <%= f.password_field :password_confirmation %>
+    </div>
+  </div>
+  <div class="actions">
+    <%= f.submit 'Make It So', class: 'btn btn-primary btn-lg', id: 'user_button' %>
+  </div>
 <% end %>
