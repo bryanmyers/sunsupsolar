@@ -8,6 +8,7 @@ def create
 
   if user && user.authenticate(params[:password])
     session[:user_id] = user.id
+    session[:access] = user.access
     redirect_to root_url, notice: "Logged in!"
 
   else
@@ -18,6 +19,7 @@ end
 
   def destroy
     session[:user_id] = nil
+    session[:access] = nil
     redirect_to root_url, notice: "Logged out!"
   end
 

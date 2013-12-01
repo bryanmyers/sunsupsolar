@@ -11,6 +11,11 @@
         <th>Author</th>
         <th>Content</th>
         <th>Image</th>
+        <th></th>
+        <% if session[:access] == 2 %>
+          <th></th>
+          <th></th>
+        <% end %>
       </tr>
     </thead>
 
@@ -22,8 +27,10 @@
           <td><%= news.content %></td>
           <td><%= news.image %></td>
           <td><%= link_to 'Details', news %></td>
-          <td><%= link_to 'Edit', edit_news_path(news) %></td>
-          <td><%= link_to 'Delete', news, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          <% if session[:access] == 2 %>
+            <td><%= link_to 'Edit', edit_news_path(news) %></td>
+            <td><%= link_to 'Delete', news, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          <% end %>
         </tr>
       <% end %>
     </tbody>
@@ -31,5 +38,6 @@
 </div>
 
 <br>
-
-<%= link_to 'New News', new_news_path %>
+<% if session[:access] == 2 %>
+  <%= link_to 'New News', new_news_path %>
+<% end %>
