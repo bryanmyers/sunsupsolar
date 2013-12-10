@@ -232,19 +232,11 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/layouts/application.html.erb",
+			"file": "db/seeds.rb",
 			"settings":
 			{
-				"buffer_size": 4330,
+				"buffer_size": 343,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/views/news/index.html.erb",
-			"settings":
-			{
-				"buffer_size": 1045,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -272,12 +264,19 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/db/migrate/20131204223507_add_admin.rb",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/db/migrate/20130819183145_create_users.rb",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/db/migrate/20130822005809_create_news.rb",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/db/migrate/20130823021049_rename_users_id_from_installations.rb",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/Gemfile",
+		"/C/Users/Owner/Documents/WebFolder/dojo/CS350-Ruby-on-rails/notes/heroku.txt",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/layouts/application.html.erb",
+		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/news/index.html.erb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/controllers/users_controller.rb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/controllers/application_controller.rb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/controllers/news_controller.rb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/layouts/_nav_links.html.erb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/controllers/sessions_controller.rb",
-		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/news/index.html.erb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/users/_form.html.erb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/sessions/new.html.erb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/config/routes.rb",
@@ -285,7 +284,6 @@
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/users/index.html.erb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/models/user.rb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/users/show.html.erb",
-		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/layouts/application.html.erb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/sessions/_form.html.erb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/db/migrate/20131121215539_drop_installations.rb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/users/user form access key and password code.txt",
@@ -302,8 +300,6 @@
 		"/C/Users/Owner/Documents/WebFolder/dojo/CS350-Ruby-on-rails/microblog-mh/app/models/user.rb",
 		"/C/Users/Owner/Desktop/thewall.sql",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/sessions/signin.html.erb",
-		"/C/Users/Owner/Documents/WebFolder/dojo/CS350-Ruby-on-rails/notes/heroku.txt",
-		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/Gemfile",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/static_pages/save.html.erb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/static_pages/independence.html.erb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/static_pages/green.html.erb",
@@ -330,7 +326,6 @@
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/db/migrate/20130823024527_rename_column.rb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/controllers/installations_controller.rb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/views/installations/show.html.erb",
-		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/db/migrate/20130823021049_rename_users_id_from_installations.rb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/config/environment.rb",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/assets/stylesheets/users.css",
 		"/C/Users/Owner/Documents/WebFolder/SunsUpSolar/app/assets/stylesheets/users.css.scss",
@@ -396,10 +391,7 @@
 		"/C/Users/Owner/AppData/Local/Temp/Temp1_foundation-4.3.1.zip/index.html",
 		"/C/Users/Owner/Documents/WebFolder/dojo/codeigniter/MVC-login/Dojo MVC-login.sublime-project",
 		"/C/Users/Owner/Documents/WebFolder/dojo/codeigniter/MVC-login/application/controllers/welcome.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/codeigniter/MVC-login/application/controllers/users.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/codeigniter/MVC-login/application/models/user.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/codeigniter/MVC-login/application/views/header.php",
-		"/C/Users/Owner/Documents/WebFolder/dojo/codeigniter/MVC-login/.htaccess"
+		"/C/Users/Owner/Documents/WebFolder/dojo/codeigniter/MVC-login/application/controllers/users.php"
 	],
 	"find":
 	{
@@ -491,61 +483,30 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/layouts/application.html.erb",
+					"file": "db/seeds.rb",
 					"settings":
 					{
-						"buffer_size": 4330,
+						"buffer_size": 343,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3704,
-								3674
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2046.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/views/news/index.html.erb",
-					"settings":
-					{
-						"buffer_size": 1045,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1042,
-								1042
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 528.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -613,6 +574,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 241.0,
+	"side_bar_width": 390.0,
 	"status_bar_visible": true
 }
